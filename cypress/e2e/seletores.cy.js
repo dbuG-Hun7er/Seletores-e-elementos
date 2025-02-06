@@ -7,7 +7,6 @@ describe('Seletores avançados com cypress', () => {
   });
 
   it('Seleciona elementos que contêm um Texto específico', () => {
-<<<<<<< HEAD
     cy.contains("Item 3").should("have.attr", "class", "filho-3")
   });
     
@@ -55,53 +54,6 @@ describe('Seletores avançados com cypress', () => {
      cy.get('[name="opcao"]').select('Muito')
      cy.get('#id-enviar').click()
      cy.get('#mensagemFeedback').should('have.text', 'Obrigado por compartilhar conosco!')
-=======
-    //TODO: 
-  });
-    
-  it('Seleciona o elemento com a classe pai', () => {
-    //TODO: 
-  })
-
-  it('Seleciona o elemento com o id Filho', () => {
-    //TODO: 
-   })
-
-  it('Seleciona um elemento filho dentro do elemento com a classe pai', () => {
-    //TODO: 
-  });
-
-  it('Seleciona o segundo elemento <span> com a classe irmao', () => {
-    //TODO: 
-  });
-
-  it('Seleciona o próximo elemento irmão', () => {
-    //TODO: 
-  });
-
-  it('Seleciona o elemento irmão anterior', () => {
-    //TODO: 
-  });
-
-  it('Seleciona o irmão da div anterior', () => {
-    //TODO: 
-  });
-
-  it('Seleciona o terceiro elemento <li> encontrado', () => {
-    //TODO: 
-  });
-
-  it('Seleciona o elemento com o atributo data-test', () => {
-    //TODO: 
-  });
-
-  it('Seleciona o elemento com a classe pai do elemento com a classe filho', () => {
-    //TODO: 
-  });
-
-  it('Seleciona o elemento com um valor em um select', () => {
-    //TODO: 
->>>>>>> bc6d1c6b20d4930be2bf39995dad76fe70654ae1
   });
 
 })
